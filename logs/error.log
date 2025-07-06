@@ -1,0 +1,7 @@
+exit status 1
+ERROR	2025/07/06 10:39:51 C:/Users/Hardik/Desktop/snippetbox/cmd/web/main.go:26: listen tcp :4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+exit status 1
+exit status 0xc000013a
+ERROR	2025/07/06 10:49:20 C:/Users/Hardik/Desktop/snippetbox/cmd/web/main.go:34: listen tcp :4000: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+exit status 1
+INFO	2025/07/06 14:49:45 Starting server on : :4000
