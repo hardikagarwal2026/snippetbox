@@ -70,8 +70,8 @@ func (app *application) createSnippet(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Allow", "POST")
 		app.clientError(w, http.StatusMethodNotAllowed) // Use the clientError helper
 
-		title := "hardik"
-		content := "the great"
+		title := "handmaid tale"
+		content := "the bes movie"
 		expires := "9"
 
 		id, err := app.snippets.Insert(title, content, expires)
